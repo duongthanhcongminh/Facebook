@@ -1,0 +1,19 @@
+.main{
+    background-color: rgb(240, 240, 240);
+
+}
+
+.login-form {
+    width: 65%;
+
+}
+
+.login-form input{
+    padding: 10px;
+}
+
+.btn-create {
+    width: 60%;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <div>
+                        <img src="/asset/img/fb_logo.svg" alt="">
+                        <h2 class="fs-2">Facebook helps you connect and share with the people in your life.</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mb-5">
+                    <div class="container bg-light rounded-3 d-grid mt-5 ms-5 mb-5 login-form">
+                        <input type="text" class="rounded-3 border border-secondary mt-4 "
+                            placeholder="Email address or phone number">
+                        <input type="password" class="rounded-3 border border-secondary mt-4" placeholder="Password">
+                        <button
+                            class="btn btn-md bg-primary rounded-3 border border-secondary mt-3 mb-3 text-white fs-4">Login</button>
+                        <a href="#">Forgotten password?</a>
+                        <hr>
+                        <button
+                            class="btn btn-md bg-success rounded-3 border border-secondary mt-3 mb-3 text-white fs-5 btn-create"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create new Account</button>
+                    </div>
+                    <p><a href="#" class="ms-5"><b>Create a Page</b></a> for a celebrity, brand or business.</p>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br>
+        </div>
+        </div>
+    </main>
+    <!-- Modal -->
+    <div class="modal  fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h4 class="modal-title fs-3" id="staticBackdropLabel">Sigh up</h4>
+                        <p class="text-muted"> It's quick and easy</p>
+                    </div>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="surname" placeholder="Surname">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="mobileoremail"
+                                placeholder="Mobile number or Email address">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control" id="password" placeholder="New password">
+                        </div>
+                        <div class="row mt-3">
+                            <label class="form-check-label mb-2"> Date of birth</label>
+                            <div class="col-md-4">
+
+                                <select id="dayBirth" class="form-select">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option selected value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+
+                                <select id="monthBirth" class="form-select">
+                                    <option selected value="1">Jan</option>
+                                    <option value="2">Feb</option>
+                                    <option value="3">Mar</option>
+                                    <option value="4">Apr</option>
+                                    <option value="5">May</option>
+                                    <option value="6">Jun</option>
+                                    <option value="7">Jul</option>
+                                    <option value="8">Aug</option>
+                                    <option value="9">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dec</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+
+                                <select id="yearsBirth" class="form-select">
+                                    <option value="1990">1990</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option selected value="2022">2022</option>
+
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <label class="form-check-label mb-2"> Gender</label>
+                            <div class="col-md-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female" value="option1">
+                                    <label class="form-check-label" for="female">Female</label>
+                                  </div>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="male" value="option2">
+                                    <label class="form-check-label" for="male">Male</label>
+                                  </div>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="custom" value="option2">
+                                    <label class="form-check-label" for="custom">Custom</label>
+                                  </div>
+                                
+                            </div>
+                        </div>
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                        <div class="col-12 text-center">
+                    
+                            <button data-bs-dismiss="modal" class="btn btn-success fs-5">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container mt-5">
+            <ul class="d-flex list-unstyled list-inline">
+                <li class="list-inline-item">English (UK)</li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Tiếng Việt </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">中文(台灣) </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">한국어 </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">日本語 </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Français (France) </a>
+                </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">ภาษาไทย </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Español </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Português (Brasil) </a>
+                </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Deutsch </a> </li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Italiano </a> </li>
+                <li class="list-inline-item"><button class="border-0">+</button></li>
+            </ul>
+            <hr>
+            <ul class="d-flex list-unstyled list-inline">
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Sign Up</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Log In </a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Messenger</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Facebook Lite</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Watch</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Places</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Games</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Marketplace</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Facebook Pay</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Jobs</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Oculus</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Portal</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Instagram</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Bulletin</a></li>
+                <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Local</a></li>
+            </ul>
+            <ul class="d-flex list-unstyled list-inline"></ul>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Fundraisers</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Services</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Voting Information
+                    Center</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Groups</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">About</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Create ad</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Create Page</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Developers</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Carrers</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Privacy</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Cookies</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">AdChoices</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Terms</a></li>
+            <li class="list-inline-item"><a class="text-muted text-decoration-none" href="#">Help</a></li>
+            </ul>
+            <br>
+            <br>
+            <span>Facebook © 2021</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
