@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <!-- CSS only -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/watch.css" />
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- code for header -->
+    <div class="header fixed-top bg-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 col-md-3 header-left">
+            <a class="fs-3 text-decoration-none me-1" href="./home.html">
+              <i class="bi bi-facebook mt-auto mb-auto"></i>
+            </a>
+            <input
+              class="header-search-input d-none d-lg-block"
+              type="text"
+              placeholder="Search Facebook"
+            />
+            <button class="btn btn-light fs-6 d-lg-none">
+              <i class="bi bi-search"></i>
+            </button>
+            <button class="btn btn-light fs-6 d-md-none">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <div class="header-menu">
+              <a class="text-decoration-none" href="./home.html"
+                ><i class="bi bi-house-door-fill fs-3"></i
+              ></a>
+              <a class="text-decoration-none " href="./watch.html"
+                ><i class="bi bi-play-btn fs-3"></i
+              ></a>
+              <a class="text-decoration-none active" href="./market.html"
+                ><i class="bi bi-shop fs-3"></i
+              ></a>
+              <a class="text-decoration-none" href="./home.html"
+                ><i class="bi bi-people-fill fs-3"></i
+              ></a>
+              <a class="text-decoration-none" href="./home.html"
+                ><i class="bi bi-joystick fs-3"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 header-right">
+            <div class="d-none d-lg-block">
+              <button class="header-avatar">
+                <img
+                  class="header-avatar-img me-2"
+                  src="https://demo.digityze.asia/ilearning/wp-content/themes/cera-child/assets/images/avatars/user-avatar.png"
+                  alt=""
+                />
+                <p class="header-avatar-name">Alex</p>
+              </button>
+            </div>
+            <button class="btn header-btn">
+              <i class="bi bi-three-dots-vertical"></i>
+            </button>
+            <button class="btn header-btn">
+              <i class="bi bi-messenger"></i>
+            </button>
+            <button class="btn header-btn">
+              <i class="bi bi-bell-fill"></i>
+            </button>
+            <div class="dropdown">
+              <button
+                class="btn header-btn"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-caret-down-fill"></i>
+              </button>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                <a class="dropdown-item" href="#">Help & Support</a>
+                <a class="dropdown-item" href="#">Display & Accessibility</a>
+                <a class="dropdown-item" href="../index.html">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- code for header -->
+    <!-- code for main -->
+    <main class="main">
+      <div class="row">
+        <div class="sidebar col-lg-3 d-none d-lg-block bg-white">
+          <ul class="sidebar-menu">
+            <li class="sidebar-item">
+              <a href="profile.html" class="sidebar-link">
+                <span class="sidebar-image">
+                  <img
+                    src="https://demo.digityze.asia/ilearning/wp-content/themes/cera-child/assets/images/avatars/user-avatar.png"
+                    alt=""
+                /></span>
+                <span class="sidebar-text">Alex</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i  class="bi bi-cart-check-fill"></i></i>
+                </span>
+                <span class="sidebar-text">Browse all</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i class="bi bi-cart3"></i>
+                </span>
+                <span class="sidebar-text">Live Shopping</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i class="bi bi-bell-fill"></i>
+                </span>
+                <span class="sidebar-text">Notification</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i style="color: oldlace;" class="bi bi-chat-square-text"></i>
+                </span>
+                <span class="sidebar-text">Inbox</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-basket"></i></span>
+                <span class="sidebar-text">Buying</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-tag-fill"></i></span>
+                <span class="sidebar-text">Selling</span></a
+              >
+            </li>
+            <hr>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <span class="sidebar-icon"
+                    ><i style="color: rgb(0, 132, 255);" class="bi bi-caret-down-fill"></i
+                  ></span>
+                  <span style="color: rgb(0, 132, 255);" class="sidebar-text">Categories</span></a
+                >
+              </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-house-fill"></i></span>
+                <span class="sidebar-text">Property for rent</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-tags-fill"></i></span>
+                <span class="sidebar-text">Classifieds</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-truck"></i></span>
+                <span class="sidebar-text">Vehicles</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-earbuds"></i></span>
+                <span class="sidebar-text">Electronic devices</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-music-player"></i></span>
+                <span class="sidebar-text">Home goods</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-palette-fill"></i></span>
+                <span class="sidebar-text">Hobbies</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-vector-pen"></i></i
+                ></span>
+                <span class="sidebar-text">Office supplies</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-sunglasses"></i></span>
+                <span class="sidebar-text">Accessories</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-gem"></i></span>
+                <span class="sidebar-text">Jewelry</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-lamp-fill"></i></span>
+                <span class="sidebar-text">House supplies</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-dice-6-fill"></i></span>
+                <span class="sidebar-text">Toys and Games</span></a
+              >
+            </li>
+           
+          </ul>
+        </div>
+        <div class="watch col-lg-9">
+            <h1 class="fs-5 fw-bolder mt-3 mb-3">Today's picks</h1>
+           <div class="row d-flex">
+            <div class="card m-1" style="width: 18rem;">
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-breakout-114/2022-breakout-114-f59/2022-breakout-114-f59-motorcycle.jpg?impolicy=myresize&rw=500" class="card-img-top" alt="...">
+                <div class="card_body">
+                  <p class="card_text_price fw-bolder">1.300.000</p>
+                  <p class="card_text_des">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card m-1" style="width: 18rem;">
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-forty-eight/2022-forty-eight-f57/2022-forty-eight-f57-motorcycle.jpg?impolicy=myresize&rw=500" class="card-img-top" alt="...">
+                <div class="card_body">
+                  <p class="card_text_price fw-bolder">1.300.000</p>
+                  <p class="card_text_des">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card m-1" style="width: 18rem;">
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-softail-standard/2022-softail-standard-010/2022-softail-standard-010-motorcycle.jpg?impolicy=myresize&rw=500" class="card-img-top" alt="...">
+                <div class="card_body">
+                  <p class="card_text_price fw-bolder">1.300.000</p>
+                  <p class="card_text_des">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card m-1" style="width: 18rem;">
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-street-bob-114/2022-street-bob-114-f53/2022-street-bob-114-f53-motorcycle.jpg?impolicy=myresize&rw=500" class="card-img-top" alt="...">
+                <div class="card_body">
+                  <p class="card_text_price fw-bolder">1.300.000</p>
+                  <p class="card_text_des">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card m-1" style="width: 18rem;">
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-sport-glide/2022-sport-glide-f16/2022-sport-glide-f16-motorcycle.jpg?impolicy=myresize&rw=500" class="card-img-top" alt="...">
+                <div class="card_body">
+                  <p class="card_text_price fw-bolder">1.300.000</p>
+                  <p class="card_text_des">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card m-1" style="width: 18rem;">
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2022/2022-fat-bob-114/2022-fat-bob-114-f57/2022-fat-bob-114-f57-motorcycle.jpg?impolicy=myresize&rw=500" class="card-img-top" alt="...">
+                <div class="card_body">
+                  <p class="card_text_price fw-bolder">1.300.000</p>
+                  <p class="card_text_des">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- code for main -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
