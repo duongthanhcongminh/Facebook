@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/gaming.css" />
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <!-- code for header -->
+    <div class="header fixed-top bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-3 header-left">
+                    <a class="fs-3 text-decoration-none me-1" href="./home.html">
+                        <i class="bi bi-facebook mt-auto mb-auto"></i>
+                    </a>
+                    <input class="header-search-input d-none d-lg-block" type="text" placeholder="Search Facebook" />
+                    <button class="btn btn-light fs-6 d-lg-none">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <button class="btn btn-light fs-6 d-md-none">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="header-menu">
+                        <a class="text-decoration-none" href="./home.html"><i
+                                class="bi bi-house-door-fill fs-3"></i></a>
+                        <a class="text-decoration-none" href="./watch.html"><i class="bi bi-play-btn fs-3"></i></a>
+                        <a class="text-decoration-none" href="./marketplace.html"><i class="bi bi-shop fs-3"></i></a>
+                        <a class="text-decoration-none " href="./group.html"><i class="bi bi-people-fill fs-3"></i></a>
+                        <a class="text-decoration-none active" href="./gaming.html"><i
+                                class="bi bi-joystick fs-3"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 header-right">
+                    <div class="d-none d-lg-block">
+                        <button class="header-avatar">
+                            <img class="header-avatar-img me-2"
+                                src="https://demo.digityze.asia/ilearning/wp-content/themes/cera-child/assets/images/avatars/user-avatar.png"
+                                alt="" />
+                            <p class="header-avatar-name">Alex</p>
+                        </button>
+                    </div>
+                    <button class="btn header-btn">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </button>
+                    <button class="btn header-btn">
+                        <i class="bi bi-messenger"></i>
+                    </button>
+                    <button class="btn header-btn">
+                        <i class="bi bi-bell-fill"></i>
+                    </button>
+                    <div class="dropdown">
+                        <button class="btn header-btn" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Setting & Privacy</a>
+                            <a class="dropdown-item" href="#">Help & Support</a>
+                            <a class="dropdown-item" href="#">Display & Accessibility</a>
+                            <a class="dropdown-item" href="../index.html">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- code for header -->
+    <!-- code for main -->
+    <main class="main">
+        <div class="row">
+            <div class="sidebar col-lg-2 d-none d-lg-block">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-item">
+                        <a href="profile.html" class="sidebar-link">
+                            <span class="sidebar-image">
+                            </span>
+                            <span class="sidebar-text ">Gaming</span>
+                        </a>
+                        <input class="header-search-input d-none d-lg-block ms-2 bg-light" type="text"
+                            placeholder="Searching for group" />
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(0, 183, 255)" class="bi bi-columns"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">For you</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(0, 183, 255)" class="bi bi-play-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Video</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: red" class="bi bi-trophy-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Tournaments</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: purple" class="bi bi-controller"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Play games</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: purple" class="bi bi-bell-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Notification</span>
+                        </a>
+                    </li>
+
+
+                    <hr>
+                    <h3 class=" ms-2 fs-5"> Streamers you follow</h3>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg" class="rounded-circle" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text fs-6 fs-6">500Bros Lynx</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img src="data:image/jpeg;base64,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" class="rounded-circle" width="50" height="50"
+                                    alt=""></span>
+                            <span class="sidebar-text fs-6">Dragon Nest Mobile - VNG</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQbITh_d4uWH42hTRHoYbq0ghnJ6UlioJJ9A&usqp=CAU" class="rounded-circle" width="50" height="50"
+                                    alt=""></span>
+                            <span class="sidebar-text fs-6">TOP Comments</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWUnhYTiCaPXcyq6AfF6TBAiW1HiBolGXTw&usqp=CAU" class="rounded-circle" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text fs-6">Tốc biến vào trụ</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img src="data:image/jpeg;base64,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" class="rounded-circle" width="50" height="50"
+                                    alt=""></span>
+                            <span class="sidebar-text fs-6">Kho Tàu TV</span></a>
+                    </li>
+                    <h3 class=" ms-2 fs-5">Pinned Game</h3>
+                    <h4 class=" ms-2 fs-6 text-mute">Pin the game to create a shortcut here.</h4>
+                    <hr>
+                    <h3 class=" ms-2 fs-5">Categories</h3>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: purple" class="bi bi-controller"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">All games</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(53, 47, 90)" class="bi bi-hammer"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Action</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(43, 170, 117)" class="bi bi-dpad-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Adventure</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(179, 212, 243)" class="bi bi-diamond-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Arcade</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(177, 128, 38)" class="bi bi-nintendo-switch"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Battle</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(82, 165, 62)" class="bi bi-clipboard"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Board</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(77, 155, 135)" class="bi bi-building"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Builder</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(0, 0, 0)" class="bi bi-suit-club-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Card</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="newfeed col-lg-8">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <iframe width="100%" height="370" src="https://www.youtube.com/embed/80iG52ALwGIautoplay=1"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <iframe width="100%" height="370" src="https://www.youtube.com/embed/80iG52ALwGI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="100%" height="370" src="https://www.youtube.com/embed/80iG52ALwGI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbke5oTGiM8gcGT9GNrY5jB8jh1c5rbw9Kmg&usqp=CAU">
+                        <div class="post__topInfo">
+                            <h3>MINH Gaming</h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>Buổi thứ 2 tập sờ chym</p>
+                    </div>
+                    <div class="post__content">
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/7yc-V0HPwPQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar"
+                            src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/240841766_1469573156773631_3106439468991134767_n.png?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=dKlUJ69JSMsAX-HPUnN&_nc_ht=scontent.fhan15-1.fna&oh=00_AT_wWZYvHNlpO-1C28E_zNvzXJs24TbH9JW2C3l_eCDYGw&oe=61E960A7"
+                            alt="" />
+                        <div class="post__topInfo">
+                            <h3>Tâm Shaco </h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>Chiến thôi anh em</p>
+                        <iframe width="100%" height="696" src="https://www.youtube.com/embed/_idGbCALMiE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar"
+                            src="https://scontent.fhan15-1.fna.fbcdn.net/v/t1.6435-9/143119904_1809444312576682_3007703238103447523_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=fsz1YkKF1k0AX9n573l&_nc_ht=scontent.fhan15-1.fna&oh=00_AT9Ni_croFO9DKA98SLrUEGyoRi360yi9e1pv1czCGsg7w&oe=620B1AC6"
+                            alt="" />
+                        <div class="post__topInfo">
+                            <h3>ND Gaming</h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>Cùng giả làm cảnh sát</p>
+                        <iframe width="100%" height="696" src="https://www.youtube.com/embed/EnX-VB4suFE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar"
+                            src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/p320x320/255994635_259354502896004_1220698999122344491_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=c6021c&_nc_ohc=awT3xPL-q7oAX_RA09b&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8bnfsSNO0-qAkQXjCmSJsEdWO1vlPkpdHgVB9rcFHBSQ&oe=61E9AA9C"
+                            alt="" />
+                        <div class="post__topInfo">
+                            <h3>Dũng CT</h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>5 điều cần biết trước khi làm STREAMER)</p>
+                        <iframe width="100%" height="696" src="https://www.youtube.com/embed/igUFP7rtzPU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- code for main -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
