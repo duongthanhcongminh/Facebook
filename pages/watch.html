@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <!-- CSS only -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/watch.css" />
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- code for header -->
+    <div class="header fixed-top bg-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 col-md-3 header-left">
+            <a class="fs-3 text-decoration-none me-1" href="./home.html">
+              <i class="bi bi-facebook mt-auto mb-auto"></i>
+            </a>
+            <input
+              class="header-search-input d-none d-lg-block"
+              type="text"
+              placeholder="Search Facebook"
+            />
+            <button class="btn btn-light fs-6 d-lg-none">
+              <i class="bi bi-search"></i>
+            </button>
+            <button class="btn btn-light fs-6 d-md-none">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <div class="header-menu">
+              <a class="text-decoration-none" href="./home.html"
+                ><i class="bi bi-house-door-fill fs-3"></i
+              ></a>
+              <a class="text-decoration-none active" href="./watch.html"
+                ><i class="bi bi-play-btn fs-3"></i
+              ></a>
+              <a class="text-decoration-none" href="./market.html"
+                ><i class="bi bi-shop fs-3"></i
+              ></a>
+              <a class="text-decoration-none" href="./home.html"
+                ><i class="bi bi-people-fill fs-3"></i
+              ></a>
+              <a class="text-decoration-none" href="./home.html"
+                ><i class="bi bi-joystick fs-3"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 header-right">
+            <div class="d-none d-lg-block">
+              <button class="header-avatar">
+                <img
+                  class="header-avatar-img me-2"
+                  src="https://demo.digityze.asia/ilearning/wp-content/themes/cera-child/assets/images/avatars/user-avatar.png"
+                  alt=""
+                />
+                <p class="header-avatar-name">Alex</p>
+              </button>
+            </div>
+            <button class="btn header-btn">
+              <i class="bi bi-three-dots-vertical"></i>
+            </button>
+            <button class="btn header-btn">
+              <i class="bi bi-messenger"></i>
+            </button>
+            <button class="btn header-btn">
+              <i class="bi bi-bell-fill"></i>
+            </button>
+            <div class="dropdown">
+              <button
+                class="btn header-btn"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-caret-down-fill"></i>
+              </button>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Setting & Privacy</a>
+                <a class="dropdown-item" href="#">Help & Support</a>
+                <a class="dropdown-item" href="#">Display & Accessibility</a>
+                <a class="dropdown-item" href="../index.html">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- code for header -->
+    <!-- code for main -->
+    <main class="main">
+      <div class="row">
+        <div class="sidebar col-lg-3 d-none d-lg-block bg-white">
+          <ul class="sidebar-menu">
+            <li class="sidebar-item">
+              <a href="profile.html" class="sidebar-link">
+                <span class="sidebar-image">
+                  <img
+                    src="https://demo.digityze.asia/ilearning/wp-content/themes/cera-child/assets/images/avatars/user-avatar.png"
+                    alt=""
+                /></span>
+                <span class="sidebar-text">Alex</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i style="color: rgb(0, 153, 255);" class="bi bi-tv-fill"></i>
+                </span>
+                <span class="sidebar-text">Home</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i class="bi bi-camera-reels-fill"></i>
+                </span>
+                <span class="sidebar-text">Live</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i class="bi bi-film"></i>
+                </span>
+                <span class="sidebar-text">Show</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                    <i class="bi bi-send-fill"></i>
+                </span>
+                <span class="sidebar-text">Explore</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon">
+                <i class="bi bi-download"></i></span>
+                <span class="sidebar-text">Saved Videos</span></a
+              >
+            </li>
+            <hr>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <span class="sidebar-icon"
+                    ><i style="color: lightyellow" class="bi bi-star-fill"></i
+                  ></span>
+                  <span class="sidebar-text">Favourite</span></a
+                >
+              </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: rgba(255, 60, 0, 0.486);" class="bi bi-dribbble"></i></span>
+                <span class="sidebar-text">Ghiền Bóng Đá</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: gold;" class="bi bi-egg-fried"></i></span>
+                <span class="sidebar-text">Ẩm thực và du lịch</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: lightcyan;" class="bi bi-cloud-sun-fill"></i></span>
+                <span class="sidebar-text">Dự báo thời tiết</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: salmon;" class="bi bi-boombox-fill"></i></span>
+                <span class="sidebar-text">Kênh âm nhạc</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: white;" class="bi bi-lightbulb-fill"></i></span>
+                <span class="sidebar-text">Bạn biết chưa?</span></a
+              >
+            </li>
+            
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: royalblue;" class="bi bi-pc-display"></i></span>
+                <span class="sidebar-text">Học Code Đi</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: silver;" class="bi bi-film"></i></span>
+                <span class="sidebar-text">Phim mới</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-newspaper"></i></span>
+                <span class="sidebar-text">Tin tức hôm nay</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: tomato;" class="bi bi-broadcast"></i></span>
+                <span class="sidebar-text">Live Stream</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: violet;" class="bi bi-bug-fill"></i></span>
+                <span class="sidebar-text">Thế giới côn trùng</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i style="color: powderblue;" class="bi bi-building"></i></span>
+                <span class="sidebar-text">Nhà cửa</span></a
+              >
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <span class="sidebar-icon"
+                  ><i class="bi bi-caret-down-fill"></i
+                ></span>
+                <span class="sidebar-text">See more</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="watch col-lg-9">
+          <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="https://yt3.ggpht.com/uEDkjMrRVjdo2FeZrfBGtlQhHuJG67Y_CvflnmJ9D55kBWHOSDKXp4gJOtdMAS9DdoFilAGPfX8=s176-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>Camping</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+
+            <div class="post__content">
+              <p>[Cắm trại trên xe mùa đông] Một mình trong núi tuyết băng giá</p>
+            </div>
+            <div class="post__content">
+              <div class="post_video">
+                <iframe  src="https://www.youtube.com/embed/erRGujj4Wyw?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="post__botInfo">
+              <div>
+                <span class="post__botInfoIcon"
+                  ><i class="bi bi-hand-thumbs-up-fill"></i
+                ></span>
+                <span class="post__botInfoText">Like</span>
+              </div>
+              <div class="d-flex">
+                <div>
+                  <span class="post__botInfoText">500 Comment</span>
+                </div>
+                <div>
+                  <span class="post__botInfoText">347 Shared</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="post__options">
+              <div class="post__option">
+                <i class="bi bi-hand-thumbs-up"></i>
+                <span>Like</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-chat-square"></i>
+                <span>Comment</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-share"></i>
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="https://yt3.ggpht.com/NrIEzYVk5mBH9yRIefVDnvyD7YQpvbmOUx-LRNaC7KCc1DQ82B-bvURmZbEhZoCllobJjCBq=s88-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>The chill</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+
+            <div class="post__content">
+              <p>jazz/lofi hip hop radio🌱chill beats to relax/study to [LIVE 24/7]</p>
+            </div>
+            <div class="post__content">
+              <div class="post_video">
+                <iframe width="1520" height="553" src="https://www.youtube.com/embed/kgx4WGK0oNU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="post__botInfo">
+              <div>
+                <span class="post__botInfoIcon"
+                  ><i class="bi bi-hand-thumbs-up-fill"></i
+                ></span>
+                <span class="post__botInfoText">Like</span>
+              </div>
+              <div class="d-flex">
+                <div>
+                  <span class="post__botInfoText">500 Comment</span>
+                </div>
+                <div>
+                  <span class="post__botInfoText">347 Shared</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="post__options">
+              <div class="post__option">
+                <i class="bi bi-hand-thumbs-up"></i>
+                <span>Like</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-chat-square"></i>
+                <span>Comment</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-share"></i>
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="https://yt3.ggpht.com/Bowu64_L_wQCKPCv-9Y_LWqSUd9sgzQ6nnsZa62LEhznDNk6lbkbEGgZPAL3FPi9EGj-qlPyGA=s88-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>f8</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+
+            <div class="post__content">
+              <p>Cài Đặt Ubuntu với WSL 1 | Install WSL 1</p>
+            </div>
+            <div class="post__content">
+              <div class="post_video">
+                <iframe width="1520" height="553" src="https://www.youtube.com/embed/ypvjxw5qBK0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="post__botInfo">
+              <div>
+                <span class="post__botInfoIcon"
+                  ><i class="bi bi-hand-thumbs-up-fill"></i
+                ></span>
+                <span class="post__botInfoText">Like</span>
+              </div>
+              <div class="d-flex">
+                <div>
+                  <span class="post__botInfoText">500 Comment</span>
+                </div>
+                <div>
+                  <span class="post__botInfoText">347 Shared</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="post__options">
+              <div class="post__option">
+                <i class="bi bi-hand-thumbs-up"></i>
+                <span>Like</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-chat-square"></i>
+                <span>Comment</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-share"></i>
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="https://yt3.ggpht.com/YuRHl_4murHobFsrHDkpJANVHzXYTgP68zysfrsNPIRMr8fKSzEP_4y6cFeE5WfpWOdxVH4sO-8=s88-c-k-c0x00ffffff-no-nd-rj"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>Adele</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+
+            <div class="post__content">
+              <p>Adele - Oh My God (Official Video)</p>
+            </div>
+            <div class="post__content">
+              <div class="post_video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/niG3YMU6jFk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="post__botInfo">
+              <div>
+                <span class="post__botInfoIcon"
+                  ><i class="bi bi-hand-thumbs-up-fill"></i
+                ></span>
+                <span class="post__botInfoText">Like</span>
+              </div>
+              <div class="d-flex">
+                <div>
+                  <span class="post__botInfoText">500 Comment</span>
+                </div>
+                <div>
+                  <span class="post__botInfoText">347 Shared</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="post__options">
+              <div class="post__option">
+                <i class="bi bi-hand-thumbs-up"></i>
+                <span>Like</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-chat-square"></i>
+                <span>Comment</span>
+              </div>
+
+              <div class="post__option">
+                <i class="bi bi-share"></i>
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- code for main -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
