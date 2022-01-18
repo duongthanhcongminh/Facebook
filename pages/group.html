@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/group.css" />
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <!-- code for header -->
+    <div class="header fixed-top bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-3 header-left">
+                    <a class="fs-3 text-decoration-none me-1" href="./home.html">
+                        <i class="bi bi-facebook mt-auto mb-auto"></i>
+                    </a>
+                    <input class="header-search-input d-none d-lg-block" type="text" placeholder="Search Facebook" />
+                    <button class="btn btn-light fs-6 d-lg-none">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <button class="btn btn-light fs-6 d-md-none">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="header-menu">
+                        <a class="text-decoration-none" href="./home.html"><i
+                                class="bi bi-house-door-fill fs-3"></i></a>
+                        <a class="text-decoration-none" href="./watch.html"><i class="bi bi-play-btn fs-3"></i></a>
+                        <a class="text-decoration-none" href="./market.html"><i class="bi bi-shop fs-3"></i></a>
+                        <a class="text-decoration-none active" href="./group.html"><i
+                                class="bi bi-people-fill fs-3"></i></a>
+                        <a class="text-decoration-none" href="./gaming.html"><i class="bi bi-joystick fs-3"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 header-right">
+                    <div class="d-none d-lg-block">
+                        <button class="header-avatar">
+                            <img class="header-avatar-img me-2"
+                                src="https://demo.digityze.asia/ilearning/wp-content/themes/cera-child/assets/images/avatars/user-avatar.png"
+                                alt="" />
+                            <p class="header-avatar-name">Alex</p>
+                        </button>
+                    </div>
+                    <button class="btn header-btn">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </button>
+                    <button class="btn header-btn">
+                        <i class="bi bi-messenger"></i>
+                    </button>
+                    <button class="btn header-btn">
+                        <i class="bi bi-bell-fill"></i>
+                    </button>
+                    <div class="dropdown">
+                        <button class="btn header-btn" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Setting & Privacy</a>
+                            <a class="dropdown-item" href="#">Help & Support</a>
+                            <a class="dropdown-item" href="#">Display & Accessibility</a>
+                            <a class="dropdown-item" href="../index.html">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- code for header -->
+    <!-- code for main -->
+    <main class="main">
+        <div class="row">
+            <div class="sidebar col-lg-3 d-none d-lg-block">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-item">
+                        <a href="profile.html" class="sidebar-link">
+                            <span class="sidebar-image">
+                            </span>
+                            <span class="sidebar-text">Groups</span>
+                        </a>
+                        <input class="header-search-input d-none d-lg-block ms-2" type="text"
+                            placeholder="Searching for group" />
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: rgb(0, 183, 255)" class="bi bi-newspaper"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Your feed</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: red" class="bi bi-compass-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Discover</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <i style="color: purple" class="bi bi-bell-fill"></i>
+                            </span>
+                            <span class="sidebar-text fs-6">Your notifications</span>
+                        </a>
+                    </li>
+                    <button class="btn btn-primary ms-3 my-2">
+                        <i class="bi bi-plus-lg"></i> Create new group
+                    </button>
+
+                    <hr>
+                    <h3 class=" ms-2 fs-4"> Group you've joined</h3>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download (1).jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">Facebook Group</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download (2).jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">VIETNAMESE STREET STYLE GROUP</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/images.jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">Cộng đồng nghiền phim truyền hình US-UK</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download (3).jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">Hội Review đồ ăn Hà Nội</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download.jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">ALL ABOUT XĂM</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download (2).jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">QRVN</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/images.jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">Maybe We Should Talk 'Bout Fashion</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download (3).jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">Ăn Sập Hà Nội</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span class="sidebar-icon">
+                                <img class="rounded" src="../asset/img/download.jfif" width="50" height="50" alt=""></span>
+                            <span class="sidebar-text">Đảo Mèo</span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="newfeed col-lg-6">
+
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar" src="../asset/img/th.jfif">
+                        <div class="post__topInfo">
+                            <h3>FRIENDS</h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>Friends reunion</p>
+                    </div>
+                    <div class="post__content">
+                        <img src="../asset/img/th.jfif" alt="" />
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar"
+                            src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/240841766_1469573156773631_3106439468991134767_n.png?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=dKlUJ69JSMsAX-HPUnN&_nc_ht=scontent.fhan15-1.fna&oh=00_AT_wWZYvHNlpO-1C28E_zNvzXJs24TbH9JW2C3l_eCDYGw&oe=61E960A7"
+                            alt="" />
+                        <div class="post__topInfo">
+                            <h3>On Sports </h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>ĐT TRUNG QUỐC TẬP KÍN TRÊN SÂN HÀNG ĐẪY</p>
+                        <img src="https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/271239075_1547924722271807_9115544686157740612_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=c0WFt9cDBsMAX_LZ2Id&_nc_ht=scontent.fhan15-2.fna&oh=00_AT-w4Kd6mqFjMG9jbFGgwa0v90owk_ZunXnMSQso-T0Tcw&oe=61E8FC5F"
+                            alt="" />
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar"
+                            src="https://scontent.fhan15-1.fna.fbcdn.net/v/t1.6435-9/143119904_1809444312576682_3007703238103447523_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=fsz1YkKF1k0AX9n573l&_nc_ht=scontent.fhan15-1.fna&oh=00_AT9Ni_croFO9DKA98SLrUEGyoRi360yi9e1pv1czCGsg7w&oe=620B1AC6"
+                            alt="" />
+                        <div class="post__topInfo">
+                            <h3>Trung tâm Tin tức VTV24</h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>Cùng nhớ quy tắc 5K: Khoảng cách, không tụ tập, khử khuẩn, khẩu trang và
+                            khai báo y tế nhé cả nhà.😉!</p>
+                        <img src="https://scontent.fhan15-1.fna.fbcdn.net/v/t1.6435-9/143119904_1809444312576682_3007703238103447523_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=fsz1YkKF1k0AX9n573l&_nc_ht=scontent.fhan15-1.fna&oh=00_AT9Ni_croFO9DKA98SLrUEGyoRi360yi9e1pv1czCGsg7w&oe=620B1AC6"
+                            alt="" />
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__top">
+                        <img class="user__avatar post__avatar"
+                            src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/p320x320/255994635_259354502896004_1220698999122344491_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=c6021c&_nc_ohc=awT3xPL-q7oAX_RA09b&_nc_ht=scontent.fhan15-1.fna&oh=00_AT8bnfsSNO0-qAkQXjCmSJsEdWO1vlPkpdHgVB9rcFHBSQ&oe=61E9AA9C"
+                            alt="" />
+                        <div class="post__topInfo">
+                            <h3>Thông tin Chính phủ</h3>
+                            <p>25 April at 20:30</p>
+                        </div>
+                    </div>
+
+                    <div class="post__content">
+                        <p>BẢN TIN BỘ Y TẾ VỀ TÌNH HÌNH CHỐNG DỊCH COVID-19 TẠI VIỆT NAM (16/1/2022)</p>
+                        <img src="https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/271595810_300234138808040_8818412344016995395_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=H4iXjZoFQAAAX95XOAO&_nc_ht=scontent.fhan15-2.fna&oh=00_AT-EM7ni2kthHSofLIGEshmBScuDeilYJAD4o4WCS0N-cw&oe=61E8D323"
+                            alt="" />
+                    </div>
+
+                    <div class="post__botInfo">
+                        <div>
+                            <span class="post__botInfoIcon"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                            <span class="post__botInfoText">Like</span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span class="post__botInfoText">500 Comment</span>
+                            </div>
+                            <div>
+                                <span class="post__botInfoText">347 Shared</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-chat-square"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post__option">
+                            <i class="bi bi-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widget p-4 col-lg-3 d-none d-lg-block">
+                <div class="f_request p-2 bg-white">
+                    <h5 class="ms-2">Suggestions for you</h5>
+                    <span class=" ms-2 fs-5">Groups you may be interested in.</span>
+                    <div id="carouselExampleControls" class="carousel carousel-dark slide mt-3 mb-3"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="card ms-5 " style="width: 20rem;">
+                                    <img src="../asset/img/th (2).jfif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nghiện setups</h5>
+                                        <p class="card-text">467K thành viên * Hơn 10 bài viết/ngày</p>
+                                        <a href="#" class="btn btn-primary">Join Group</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card ms-5 " style="width: 20rem;">
+                                    <img src="../asset/img/th (2).jfif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nghiện setups</h5>
+                                        <p class="card-text">467K thành viên * Hơn 10 bài viết/ngày</p>
+                                        <a href="#" class="btn btn-primary">Join Group</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card ms-5 " style="width: 20rem;">
+                                    <img src="../asset/img/th (2).jfif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nghiện setups</h5>
+                                        <p class="card-text">467K thành viên * Hơn 10 bài viết/ngày</p>
+                                        <a href="#" class="btn btn-primary">Join Group</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- code for main -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
